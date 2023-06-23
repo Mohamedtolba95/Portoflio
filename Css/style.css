@@ -1,0 +1,221 @@
+/* Main Elements */
+.container
+{
+    padding: 0;
+}
+p
+{
+    padding: 0;
+    margin: 0;
+}
+.background-main
+{
+    background-color: #f8f8f8;
+
+}
+/* Text system */
+.title
+{
+    font-size: 2rem;
+    color: #1e1e1e;
+}
+.paragraph
+{
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+/* Hero-section */
+.hero-image
+{
+    background-image: url(../Images/Heroimage.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+/* Information Section */
+.Information-List
+{
+    list-style: none;
+}
+.information-image
+{
+    background-image: url(../Images/Heroimage.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 150px;
+    height: 150px;
+}
+/* Service-Section */
+.card-icon
+{
+    width: 100px;
+    height: 100px;
+    border: solid 10px rgb(0, 122, 255);
+    transition: all 0.5s;
+}
+.card-holder:hover .card-icon
+{
+    background-color: #007AFF !important;
+    border: solid 10px rgba(88, 188, 255, 1);
+    color: white !important;
+}
+.card-holder:hover i 
+{
+    color: white !important;
+}
+
+.fa-business-time, .fa-rectangle-list, .fa-chart-simple, .fa-charging-station, .fa-sun, .fa-calendar-days
+{
+    font-size: 32px;
+    transition: all 0.1s;
+    color: #007AFF !important;
+}
+
+/* analysis-section-start  */
+.card-icon-analysis
+{
+    width: 100px;
+    height: 100px;
+    border: solid 10px rgb(225, 225, 225);
+}
+.opacity-image 
+{
+    background-image: url(../Images/pexels-andrew-neel-2312369.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.opacity-background
+{
+    background-color:rgba(13, 110, 253, 0.8) !important;
+
+
+}
+.card-head-paragraph
+{
+    font-size: 32px;
+}
+.fa-circle-check, .fa-stack-overflow, .fa-users, .fa-award
+{
+    font-size: 32px;
+}
+
+/* Portofolio-section-start */
+.Portofolio-image
+{
+    overflow: hidden;
+    border-radius:  8px 8px 0 0;
+}
+.Portofolio-image img
+{
+
+    width: 100%;
+    height: 240px;
+    transition: all .5s ease;
+}
+img:hover
+{
+
+    transform: scale(1.3);
+}
+.card-holder-shadow
+{
+    border-radius: 0 0 8px 8px;
+}
+.fa-circle-pause
+{
+    font-size: 48px;
+    color: #0d6efd !important;
+}
+.title-text
+{
+    font-size: 1.2rem;
+}
+.title-paragraph
+{
+    font-size:0.8rem;
+    color: #0d6efd !important;
+}
+
+/* testmotional-section-start */
+.testmotional-image1, .testmotional-image2, .testmotional-image3
+{
+    background-size: cover;
+    background-position: center;
+    width: 150px;
+    height: 150px;
+}
+.testmotional-image1
+{
+    background-image: url(../Images/Avatar-7.svg);
+}
+.testmotional-image2
+{
+    background-image: url(../Images/Avatar-4.svg);
+}
+.testmotional-image3
+{
+    background-image: url(../Images/Avatar-6.svg);
+}
+.carousel-indicators button
+{
+    width: 16px !important;
+    height: 16px !important;
+}
+.carousel-indicators
+{
+    bottom: -16px !important;
+}
+
+/* <!-- Blog ---> */
+.blog-image
+{
+    background-image: url(../Images/pexels-andrew-neel-2312369.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 8px 8px 0 0;
+    width: 100%;
+    height: 275px;
+}
+.card-footer img
+{
+    width: 40px;
+    height: 40px;
+}
+.card-footer
+{
+    border-top: solid 1px rgb(154, 154, 154);
+    border-radius: 0 0 8px 8px !important;
+}
+.blog-card-holder
+{
+    border: solid 1px rgb(140, 140, 140);
+    border-radius: 8px;
+}
+.contact-circle
+{
+    width: 40px;
+    height: 40px;
+    border: solid 4px rgb(0, 122, 255);
+}
+textarea
+{
+    resize: none;
+}
+.line::after
+{
+    content: '';
+    position: absolute;
+    background-color: #007AFF;
+    width: 48px;
+    height:  4px;
+    left: 0px;
+    bottom: 20px;
+}
+
+.Footer-color
+{
+    background-color: #007AFF;
+    color: white;
+}
